@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "compile",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=c++17",
+                "-I",
+                "C:/SFML/2.5.0/32bit/SFML-2.5.0/include", 
+                "main.cpp",
+                "-o",
+                "main.exe",
+                "-L",
+                "C:/SFML/2.5.0/32bit/SFML-2.5.0/lib", 
+                "-lsfml-graphics",
+                "-lsfml-window",
+                "-lsfml-system"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Generated task by Debugger."
+        }
+    ]
+}
+
+
